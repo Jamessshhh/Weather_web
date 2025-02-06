@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 380px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-section input {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-section input::placeholder {
+    color: white;
+}
+
+.search-section button {
+    padding: 10px;
+    border: none;
+    background: white;
+    color: #ff7eb3;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.search-section button:hover {
+    background: #ff7eb3;
+    color: white;
+}
+
+.weather-display {
+    margin-top: 20px;
+    color: white;
+}
+
+.weather-info img {
+    width: 80px;
+}
+
+.temperature {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.forecast {
+    margin-top: 20px;
+}
+
+.forecast h3 {
+    font-size: 1.3rem;
+}
+
+.forecast-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.forecast-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 60px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.forecast-card img {
+    width: 40px;
+    height: 40px;
+}
+
+.extra-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+}

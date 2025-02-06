@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Pulse</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>🌤 Weather Pulse</h1>
+        </header>
+        <main>
+            <section class="search-section">
+                <input class="city-input" type="text" placeholder="Enter city name...">
+                <button class="search-btn">🔍</button>
+                <button class="location-btn">📍</button>
+            </section>
+            <section class="weather-display">
+                <div class="current-weather">
+                    <h2 class="city-name">City, Country</h2>
+                    <div class="weather-info">
+                        <img src="" class="weather-icon" alt="Weather icon">
+                        <p class="temperature">--°C</p>
+                        <p class="description">Weather description</p>
+                    </div>
+                    <div class="extra-info">
+                        <p class="wind">🌬 Wind: -- m/s</p>
+                        <p class="humidity">💧 Humidity: --%</p>
+                    </div>
+                </div>
+                <div class="forecast">
+                    <h3>🌍 5-Day Forecast</h3>
+                    <div class="forecast-cards"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
